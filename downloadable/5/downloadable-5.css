@@ -1,0 +1,44 @@
+body	{
+	margin: 0;
+	padding: 0;
+	font: Arial Bold, sans-serif;
+}
+
+#shell {
+	font-family: Helvetica, sans-serif;
+	background-repeat: no-repeat;
+	background-image: url(shell.jpg);
+	width: 2550px;
+	height: 3300px;
+	margin: auto;
+	position: relative;
+}	
+
+#text	{
+	font-family: 'Pontano Sans', sans-serif;
+	width: 820px;
+	height: 500px;
+	position: relative;
+	top: 2420px;
+	left: 1570px;
+	font-size: 40px;
+	color: #0c0c0c;
+	line-height: 55px;
+	text-align: left;
+}
+
+.label	{
+	color: #0c0c0c;
+}
+
+.phone {
+    position: relative;
+    font-family: Arial, sans-serif;
+	top: 2940px;
+	font-weight: bold;
+	font-size: 152px;
+	color: #fff;
+	width: 1200px;
+	height: 200px;
+	left: 150px;
+}

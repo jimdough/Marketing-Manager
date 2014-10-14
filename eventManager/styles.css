@@ -1,0 +1,459 @@
+@charset "utf-8";
+/* Event Manager CSS Document */
+
+body	{
+	font-family: arial, Helvetica, sans-serif;
+	background-image: url(../../images/bg.jpg);
+	background-repeat: repeat;
+	font-size: 12px;
+	margin: 0;
+}
+
+a	{
+	color: #000000;
+	text-decoration: none;
+}
+
+.controls {
+	width: 500px;
+	margin: auto;
+	padding-top: 0px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.disclaimer	{
+	width: 1000px;
+	font-size: 16px;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+.help	{
+	padding-left: 5px;
+	vertical-align: middle;
+	width: 15px;
+}
+
+#login	{
+	width: 330px;
+	height: 100px;
+	margin: auto;
+	background-color: #e3e3e3;
+	border: 10px solid #86dbed;
+	padding: 20px;
+}
+
+.statement	{
+	width: 500px;
+	margin: auto;
+	background-color: #e3e3e3;
+	border: 10px solid #86dbed;
+	padding: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.processing	{
+	width: 300px;
+	height: 100px;
+	margin: auto;
+	background-color: #fff;
+	border: 10px solid #86dbed;
+	padding: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+}
+
+.processing img {
+	text-align: center;
+}
+
+#listings	{
+	width: 1000px;
+	margin: auto;
+	background-color: #e3e3e3;
+	border: 10px solid #86dbed;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#listings .button	{
+        padding: 0 0.5em;
+        margin: 0.0em;
+}
+
+#listings .buttonDelete	{
+        padding: 0 0.5em;
+        margin: 0.0em;
+}
+
+#listings .buttonUpdate	{
+        padding: 0 0.5em;
+        margin: 0.0em;
+}
+
+#eventEntry	{
+	color:#333;
+	padding:10px;
+	width: 1000px;
+	margin: auto;
+	border: 10px solid #86dbed;
+	background-color: #e3e3e3;
+}
+
+#view	{
+	color:#333;
+	padding:10px;
+	width: 1000px;
+	margin: auto;
+	border: 10px solid #86dbed;
+	background-color: #e3e3e3;
+}
+
+.entry	{
+	background-color: #53afc3;
+	width: 950px;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	color: #fff;
+}
+
+.swatch	{
+	background-color: #002755;
+	padding: 5px;
+	color: #fff;
+	border: 2px solid #86dbed;
+	border-radius: 5px;
+}
+
+.entryPending 	{
+	width: 950px;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	background-color: #fbc4cc;
+}
+
+.swatchPending	{
+	color: #fbc4cc;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+.entryApproved 	{
+	width: 950px;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	background-color: #cffec5;
+}
+
+.swatchApproved	{
+	color: #cffec5;
+	padding-right: 30px;
+	padding-left: 10px;
+}
+
+.alert	{
+	background-color: #fbc4cc;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	clear: both;
+}
+
+.toolbarShell	{
+	width: 1000px;
+	text-align: center;
+	margin: auto;
+}
+
+.toolbar	{
+	list-style: none;
+	text-align: center;
+	clear: both;
+}
+
+
+h1	{
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	color: #333;
+}
+
+.sectionBreak	{
+	border:1px solid #CCC;
+	padding:10px;
+	margin-bottom:10px;
+	clear:both;
+	background-color: #F4F5FB;
+}
+
+.float	{
+	float:left;
+}
+
+.curFocus	{
+	background-color:#ccc;
+}
+
+.input	{
+	float:left;
+	padding-right: 10px;
+	width: 145px;
+}
+
+.inputSmall	{
+	float:left;
+	padding-right:15px;
+	width:110px;
+}
+
+.inputMedium	{
+	float:left;
+	padding-right:10px;
+	width:275px;
+}
+
+.inputLarge	{
+	float:left;
+	padding-right: 10px;
+	width: 400px;
+}
+
+.inputFull	{
+	float:left;
+	padding-right: 10px;
+	width: 700px;
+}
+
+.label	{
+	float:left;
+	padding-left: 5px;
+	width: 125px;
+	line-height:20px;
+	height:30px;
+	vertical-align:middle;
+	font-weight: bold;
+}
+
+.labelCenter	{
+	padding-left: 5px;
+	width: 125px;
+	line-height:20px;
+	height:30px;
+	vertical-align:middle;
+	font-weight: bold;
+	margin: auto;
+}
+
+.labelSmall	{
+	float:left;
+	padding-left:15px;
+	width:80px;
+	line-height:20px;
+	height:30px;
+	vertical-align:middle;
+	font-weight: bold;
+}
+
+.labelLarge	{
+	float:left;
+	padding-left:5px;
+	width:250px;
+	line-height:20px;
+	height:30px;
+	vertical-align:middle;
+	font-weight: bold;
+}
+
+.labelExtraLarge	{
+	float:left;
+	padding-left:15px;
+	width:550px;
+	line-height:20px;
+	height:30px;
+	vertical-align:middle;
+	font-weight: bold;
+}
+
+.submitButton	{
+	text-align:center;
+}
+
+.clear	{
+	clear:both;
+}
+
+.formDisclaimer	{
+	padding:20px;
+	font-size:11px;
+	text-align:center;
+	color:#666;
+}
+
+.text	{
+	text-align:left;
+	font-size:11px;
+}
+
+.moreButton	{
+	width: 1000px;
+	text-align: center;
+	clear: both;
+}
+
+#box	{
+	clear: both;
+	border: 1px solid black;
+	padding: 10px;
+	height: 80px;
+	margin-bottom: 10px;
+}
+
+#box1, #box2, #box3, #box4	{
+	display: none;
+	clear: both;
+	border: 1px solid black;
+	padding: 10px;
+	height: 80px;
+	margin-bottom: 10px;
+}
+
+#eventBox1, #eventBox2, #eventBox3, #eventBox4, #eventBox5	{
+	display: none;
+}
+
+.error	{
+	color: red;
+	padding-left: 3px;
+}
+
+.eventDate	{
+	padding-right: 10px;
+	width: 70px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.schoolName	{
+	padding-right: 10px;
+	width: 260px;
+	display: inline-block;
+}
+
+.eventName	{
+	padding-right: 10px;
+	width: 230px;
+	display: inline-block;
+}
+
+.function2	{
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.spacer	{
+	width: 70px;
+	display: inline-block;
+}
+
+.loader	{
+	width: 130px;
+	margin: auto;
+	padding-top: 100px;	
+}
+
+#view	{
+	width: 600px;
+	margin: auto;
+}
+
+.listingControls	{
+	width: 360px;
+	display: inline-block;
+	text-align: right;
+}
+
+.rsvp span	{
+	width: 130px;
+	display: inline-block;
+	font-size: 11px;
+}
+/* From MM */
+
+#top	{
+	width: 100%;
+	height: 140px;
+}
+
+#logo	{
+	margin-left: 50px;
+	float: left;
+}
+
+#home	{
+	float: right;
+	margin-right: 50px;
+	margin-top: 30px;
+	position: relative;
+}
+
+#home img		{
+	position: relative;
+	top: 3px;
+	margin-right: 7px;
+}
+
+#home a	{
+	color: #fff;
+	text-decoration: none;
+}
+
+#bottomStripe	{
+	width: 100%;
+	height: 62px;
+	background-image: url(../../images/footerStripe.png);
+	background-repeat: repeat-x;
+	clear: both;
+	margin-top: 10px;
+}
+
+#bottom	{
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#bottom a	{
+	color: #fff;
+	text-decoration: none;
+}
+
+#bottom img	{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#shell	{
+	background-image: url(../../images/headerStripe.png);
+	background-repeat: repeat-x;
+	width: 100%;
+}
+
+.footerText	{
+	display: block;
+	padding-top: 15px;
+}

@@ -1,0 +1,855 @@
+@charset "utf-8";
+/* MM CSS Document */
+
+body	{
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
+	margin: 0;
+}
+
+a	{
+	color: #333;
+	text-decoration: none;
+}
+
+h1, h2, h3	{
+		font-size: 16px;
+		color: #960909;
+		line-height: 0px;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 15px;
+		margin-top: 10px;
+}
+
+h4	{
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+#shell	{
+	background-image: url(images/headerStripe.png);
+	background-repeat: repeat-x;
+	width: 100%
+}
+
+#container{
+	width: 1100px;
+	min-height: 700px;
+	margin: auto;
+}
+
+#top	{
+	width: 100%;
+	height: 140px;
+}
+
+.menuTab	{
+	background-image: url(images/menuTab.png);
+	background-repeat: no-repeat;
+	width: 205px;
+	height: 75px;
+	margin-top: -50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 36px;
+	line-height: 40px;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+.leftContainer	{
+	margin-top: 50px;
+	background: #e3e3e3;
+	padding: 10px;
+	margin-bottom: 30px;
+	width: 300px;
+	margin-left: 50px;
+	float: left;
+	border: 10px solid #86dbed;
+}
+
+.rightContainer	{
+	width: 650px;
+	margin-left: 20px;
+	margin-top: 50px;
+	background: #e3e3e3;
+	padding: 10px;
+	margin-bottom: 30px;
+	float: left;
+	border: 10px solid #86dbed;
+}
+
+.centerContainer	{
+	width: 400px;
+	min-height: 150px;
+	margin:auto;
+	clear: both;
+	text-align: center;
+	margin-top: 50px;
+	background: #e3e3e3;
+	padding: 10px;
+	margin-bottom: 30px;
+	border: 10px solid #86dbed;
+}
+
+.centerContainerLG	{
+	width: 600px;
+	margin:auto;
+	margin-top: 50px;
+	background: #e3e3e3;
+	padding: 10px;
+	margin-bottom: 30px;
+	border: 10px solid #86dbed;
+}
+
+.innerWrapper	{
+	width: 100%;
+	margin: auto;
+}
+
+.innerWrapperXL	{
+	width: 100%;
+	margin: auto;
+}
+
+.navList	{
+	list-style: none;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.navList li	{
+	display: inline-block;
+}
+
+.navList li a	{
+	color: #333;
+	text-decoration: none;
+	padding-left: 35px;
+}
+
+.navList li a:hover	{
+	background-image: url(images/indicator.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.navListNone	{
+	list-style: none;
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.navListNone li	{
+	display: inline;
+	float: left;
+}
+
+.navListNone .link	{
+	color: #333;
+	text-decoration: none;
+	padding-left: 35px;
+	width: 150px;
+	padding-right: 30px;
+	display: inline-block;
+}
+
+.navListNone	img	{
+	float: right;
+	display: inline;
+}
+
+.navListNone	span	{
+	font-size: 11px;
+	float: right;
+	display: inline;
+}
+
+#logo	{
+	margin-left: 50px;
+	float: left;
+}
+
+#home	{
+	float: right;
+	margin-right: 50px;
+	margin-top: 30px;
+	position: relative;
+}
+
+#home img		{
+	position: relative;
+	top: 3px;
+	margin-right: 7px;
+}
+
+#home a	{
+	color: #fff;
+	text-decoration: none;
+}
+
+#bottomStripe	{
+	width: 100%;
+	height: 62px;
+	background-image: url(images/footerStripe.png);
+	background-repeat: repeat-x;
+	clear: both;
+}
+
+#bottom	{
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#bottom a	{
+	color: #fff;
+	text-decoration: none;
+}
+
+#bottom img	{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footerText	{
+	display: block;
+	padding-top: 15px;
+}
+
+.sort	{
+	width: 580px;
+	height: 30px;
+	text-align: center;
+}
+
+.sort span	{
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.sort span a	{
+	color: #960909;
+	font-weight: bold;
+}
+
+.headers	{
+	clear: both;
+	padding-top: 15px;
+	width: 100%;
+}
+
+.headers span	{
+	display: block;
+	float: left;
+	font-weight: bold;
+}
+
+.name	{
+	width: 200px;
+	display: inline-block;
+}
+
+.title	{
+	width: 200px;
+	display: inline-block;
+}
+
+.function	{
+	width: 30px;
+	display: inline-block;
+}
+
+.orderDate	{
+	width: 50px;
+	display: inline-block;
+}
+
+.orderID	{
+	width: 30px;
+	display: inline-block;
+}
+
+.orderRequestor	{
+	width: 130px;
+	display: inline-block;
+}
+
+.orderRequestedFor	{
+	width: 130px;
+	display: inline-block;
+}
+
+.orderProduct	{
+	width: 200px;
+	display: inline-block;
+}
+
+.orderFunctions		{
+	width: 80px;
+	display: inline-block;
+}
+
+.selectBox	{
+	width: 25px;
+	display: inline-block;
+}
+
+.userEntryPending	{
+	clear: both;
+	color: #960909;
+	background-color: #c0c0c0;
+}
+
+/* BG Hovers 
+.userEntryPending:hover	{
+	clear: both;
+	background: #d8d5d5;
+}
+
+.userEntryApproved:hover	{
+	clear: both;
+	background: #d8d5d5;
+}
+*/
+
+.userEntryPending a	{
+	color: #960909;
+}
+
+.userEntryApproved	{
+	clear: both;
+	color: #147b1d;
+}
+
+.userEntryApproved a	{
+	color: #147b1d;
+}
+
+/* ICON SPRITES */
+
+a.iconDone{
+       display: block;
+       background: url(images/icons/done.png) no-repeat;
+       width: 20px;
+       height: 15px;
+       float: left;
+}
+
+a.iconDone:hover {
+       background-position: 0 -20px;
+}
+
+a.iconDelete{
+       display: block;
+       background: url(images/icons/delete.png) no-repeat;
+       width: 20px;
+       height: 15px;
+       float: left;
+}
+
+a.iconDelete:hover {
+       background-position: 0 -20px;
+}
+
+a.iconEdit{
+       display: block;
+       background: url(images/icons/edit.png) no-repeat;
+       width: 20px;
+       height: 15px;
+       float: left;
+}
+
+a.iconEdit:hover {
+       background-position: 0 -20px;
+}
+
+a.iconDownload{
+       display: block;
+       background: url(images/icons/download.png) no-repeat;
+       width: 20px;
+       height: 15px;
+       float: left;
+}
+
+a.iconDownload:hover {
+       background-position: 0 -20px;
+}
+
+a.iconPreview{
+       display: block;
+       background: url(images/icons/preview.png) no-repeat;
+       width: 20px;
+       height: 15px;
+       float: left;
+}
+
+a.iconPreview:hover {
+       background-position: 0 -20px;
+}
+
+.orderFunction	{
+	clear:both;
+	text-align:center;
+	font-family:arial, helvetica, sans-serif;
+	margin-top:30px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.orderFunction a	{
+	color: #ccc;
+}
+
+.full	{
+	width: 500px;
+	margin: auto;
+}
+
+/* FORM STYLES */
+
+#stylized .full	{
+	width: 590px;
+	margin: auto;
+}
+
+#stylized em { 
+	font-weight: bold;
+	padding-right: 1em; 
+	vertical-align: top;
+}
+
+#stylized label	{
+	font-weight:bold;
+	text-align:right;
+	width:140px;
+	float:left;
+}
+
+#stylized label.error {
+	float: left;
+	color: #960909;
+	padding-left: 5px;
+	vertical-align: top;
+	width: 150px;
+	text-align: left;
+	font-size: 11px;
+}
+
+#stylized p	{
+	margin-right: 20px;
+	clear: both;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#stylized .req	{
+	font-size: 11px;
+	color: #960909;
+	font-weight: bold;
+}
+
+.message	{
+	display:block;
+	font-weight:bold;
+	text-align:center;
+	color: #960909;
+	clear: both;
+	font-size: 11px;
+}
+
+#stylized input	{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #ccc;
+	width:200px;
+	margin:2px 0 20px 10px;
+}
+
+#stylized textarea	{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #ccc;
+	margin:2px 0 20px 10px;
+}
+
+#stylized .fauxInput	{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #ccc;
+	width:200px;
+	margin:2px 0 20px 10px;
+}
+
+#stylized select	{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #ccc;
+	width:200px;
+	margin:2px 0 20px 10px;
+}
+
+#stylized .small	{
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:140px;
+}
+
+#stylized .small a	{
+	color: #666;
+}
+
+#stylized #calPicker	{
+	margin-left: 150px;
+	width: 165px;
+}
+
+#error	{
+	font-size: 18px;
+	color: #960909;
+	font-weight: bold;
+}
+
+#success	{
+	font-size: 18px;
+	color: green;
+	font-weight: bold;
+}
+
+.adText	{
+	font-size: 16px;
+}
+
+.adText a	{
+	color: green;
+	text-decoration: underline;	
+}
+
+.adView	{
+	border: 3px solid #ccc;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.selectRow	{
+	float: left;
+	height: 130px;
+	width: 40px;
+	border: 1px solid #f0f0f0;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #ccc;
+}
+
+.viewRow	{
+	display: block;
+	height: 130px;
+	width:530px;
+	border: 1px solid #f0f0f0;
+	padding: 10px;
+	margin: 10px;
+	line-height: 20px;
+	float: left;
+}
+
+#stylized .deleteCheck	{
+	float:left;
+	font-size:12px;
+	padding:10px;
+	border:solid 0px #ccc;
+	width:20px;
+	margin:0px 0 0px 0px;
+	line-height: 20px;
+}
+
+#stylized img	{
+	border: 3px solid #999;
+	float: left;
+	margin: 10px;
+}
+
+.clear	{
+	clear:both;
+}
+
+#flyerGrid	{
+	width: 650px;
+	margin: auto;
+}
+
+.flyerTile	{
+	width:215px;
+	float: left;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.outputBox	{
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+
+/* Glossy Button Code */
+
+
+/* BUTTON STYLES */
+.button
+{
+        display: inline-block;
+        white-space: nowrap;
+        background-color: #ccc;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+        background-image: -webkit-linear-gradient(top, #eee, #ccc);
+        background-image: -moz-linear-gradient(top, #eee, #ccc);
+        background-image: -ms-linear-gradient(top, #eee, #ccc);
+        background-image: -o-linear-gradient(top, #eee, #ccc);
+        background-image: linear-gradient(top, #eee, #ccc);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+        border: 1px solid #777;
+        padding: 0 1.5em;
+        margin: 0.5em;
+        font: bold 1em/2em Arial, Helvetica;
+        text-decoration: none;
+        color: #333;
+        text-shadow: 0 1px 0 rgba(255,255,255,.8);
+        -moz-border-radius: .2em;
+        -webkit-border-radius: .2em;
+        border-radius: .2em;
+        -moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+        -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+        box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+.buttonDelete
+{
+        display: inline-block;
+        white-space: nowrap;
+        background-color: #fbc4cc;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fbc4cc));
+        background-image: -webkit-linear-gradient(top, #eee, #fbc4cc);
+        background-image: -moz-linear-gradient(top, #eee, #fbc4cc);
+        background-image: -ms-linear-gradient(top, #eee, #fbc4cc);
+        background-image: -o-linear-gradient(top, #eee, #fbc4cc);
+        background-image: linear-gradient(top, #eee, #fbc4cc);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#fbc4cc');
+        border: 1px solid #777;
+        padding: 0 1.5em;
+        margin: 0.5em;
+        font: bold 1em/2em Arial, Helvetica;
+        text-decoration: none;
+        color: #333;
+        text-shadow: 0 1px 0 rgba(255,255,255,.8);
+        -moz-border-radius: .2em;
+        -webkit-border-radius: .2em;
+        border-radius: .2em;
+        -moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+        -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+        box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+.buttonUpdate
+{
+        display: inline-block;
+        white-space: nowrap;
+        background-color: #cffec5;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#cffec5));
+        background-image: -webkit-linear-gradient(top, #eee, #cffec5);
+        background-image: -moz-linear-gradient(top, #eee, #cffec5);
+        background-image: -ms-linear-gradient(top, #eee, #cffec5);
+        background-image: -o-linear-gradient(top, #eee, ##cffec5);
+        background-image: linear-gradient(top, #eee, #cffec5);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cffec5');
+        border: 1px solid #777;
+        padding: 0 1.5em;
+        margin: 0.5em;
+        font: bold 1em/2em Arial, Helvetica;
+        text-decoration: none;
+        color: #333;
+        text-shadow: 0 1px 0 rgba(255,255,255,.8);
+        -moz-border-radius: .2em;
+        -webkit-border-radius: .2em;
+        border-radius: .2em;
+        -moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+        -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+        box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+.button:hover, .button2:hover
+{
+        background-color: #ddd;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+        background-image: -webkit-linear-gradient(top, #fafafa, #ddd);
+        background-image: -moz-linear-gradient(top, #fafafa, #ddd);
+        background-image: -ms-linear-gradient(top, #fafafa, #ddd);
+        background-image: -o-linear-gradient(top, #fafafa, #ddd);
+        background-image: linear-gradient(top, #fafafa, #ddd);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');
+}
+
+.buttonDelete:hover
+{
+        background-color: red;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(red));
+        background-image: -webkit-linear-gradient(top, #fafafa, red);
+        background-image: -moz-linear-gradient(top, #fafafa, red);
+        background-image: -ms-linear-gradient(top, #fafafa, red);
+        background-image: -o-linear-gradient(top, #fafafa, red);
+        background-image: linear-gradient(top, #fafafa, red);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='red');
+}
+
+.buttonUpdate:hover
+{
+        background-color: green;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(green));
+        background-image: -webkit-linear-gradient(top, #fafafa, green);
+        background-image: -moz-linear-gradient(top, #fafafa, green);
+        background-image: -ms-linear-gradient(top, #fafafa, green);
+        background-image: -o-linear-gradient(top, #fafafa, green);
+        background-image: linear-gradient(top, #fafafa, green);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='green');
+}
+
+.button:active, .button2:active, .buttonDelete:active, .buttonUpdate:active
+{
+        -moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+        -webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+        box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+        position: relative;
+        top: 1px;
+}
+
+.button:focus, .button2:focus, .buttonDelete:focus, .buttonUpdate:focus
+{
+        outline: 0;
+        background: #fafafa;
+}    
+
+.button:before, .buttonDelete:before, .buttonUpdate:before
+{
+        background: #ccc;
+        background: rgba(0,0,0,.1);
+        float: left;
+        width: 1em;
+        text-align: center;
+        font-size: 1.5em;
+        margin: 0 1em 0 -1em;
+        padding: 0 .2em;
+        -moz-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+        -webkit-box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+        box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+        -moz-border-radius: .15em 0 0 .15em;
+        -webkit-border-radius: .15em 0 0 .15em;
+        border-radius: .15em 0 0 .15em;
+        pointer-events: none;
+}
+
+/* Buttons and inputs */
+button.button, button2.button, input.button
+{
+        cursor: pointer;
+        overflow: visible; /* removes extra side spacing in IE */
+}
+
+/* removes extra inner spacing in Firefox */
+button::-moz-focus-inner
+{
+  border: 0;
+  padding: 0;
+}
+
+/* If line-height can't be modified, then fix Firefox spacing with padding */
+ input::-moz-focus-inner
+{
+  padding: .4em;
+}
+
+/* The disabled styles */
+.button[disabled], .button[disabled]:hover, .button.disabled, .button.disabled:hover
+{
+        background: #eee;
+        color: #aaa;
+        border-color: #aaa;
+        cursor: default;
+        text-shadow: none;
+        position: static;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+/* Hexadecimal entities for the icons */
+
+.add:before
+{
+        content: "\271A";
+}
+
+.edit:before
+{
+        content: "\270E";
+}
+
+.delete:before
+{
+        content: "\2718";
+}
+
+.save:before
+{
+        content: "\2714";
+}
+
+.email:before
+{
+        content: "\2709";
+}
+
+.like:before
+{
+        content: "\2764";
+}
+
+.next:before
+{
+        content: "\279C";
+}
+
+.star:before
+{
+        content: "\2605";
+}
+
+.spark:before
+{
+        content: "\2737";
+}
+
+.play:before
+{
+        content: "\25B6";
+}
+
+

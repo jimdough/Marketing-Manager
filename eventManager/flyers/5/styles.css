@@ -1,0 +1,83 @@
+/* FLYER 5 */
+
+#shell {
+	font-family: Arial, sans-serif;
+	background-repeat: no-repeat;
+	background-image: url(shell.jpg);
+	width: 2550px;
+	height: 3300px;
+	margin: auto;
+	position: relative;
+}	
+
+#eventHeadline	{
+	font-size: 130px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	color: #e13227;
+	width: 2550px;
+	height: 150px;
+	padding-top: 60px;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+}
+
+#eventTime	{
+	color: #27498f;
+	font-weight: bold;
+	font-size: 90px;
+	overflow: hidden;
+	text-align: center;
+	width: 2550px;
+	height: 250px;
+	clear: both;
+	text-transform: uppercase;
+}
+
+#eventLocation 	{
+	color: #27498f;
+	font-size: 60px;
+	text-align: center;
+	width: 1150px;
+	height: 370px;
+	margin-left: 470px;
+	margin-top: 650px;
+	overflow: hidden;
+	line-height: 65px;
+}
+
+#eventDescription	{
+	clear: both;
+	width: 2450px;
+	height: 830px;
+	color: #27498f;
+	font-size: 50px;
+	line-height: 54px;
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 450px;
+	overflow: hidden;
+
+}
+
+#eventDescription ul	{
+	color: #27498f;
+	list-style: none;
+	font-size: 70px;
+	font-weight: bold;
+	line-height: 90px;
+}
+
+#eventPhone	{
+	font-size: 140px;
+	color: #27498f;
+	text-align: left;
+	font-weight: bold;
+	clear: both;
+	margin-top: 130px;
+	width: 2500px;
+	text-align: right;
+}
+

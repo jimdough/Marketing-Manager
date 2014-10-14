@@ -1,0 +1,49 @@
+body	{
+	margin: 0;
+	padding: 0;
+}
+
+#shell {
+	font-family: Helvetica, sans-serif;
+	background-repeat: no-repeat;
+	background-image: url(shell.jpg);
+	width: 1050px;
+	height: 600px;
+	margin: auto;
+	position: relative;
+}	
+
+#col1	{
+	position: relative;
+	left: 55px;
+	top: 370px;
+	width: 520px;
+	float: left;
+}
+
+#userName	{
+	font: Arial Bold, sans-serif;
+	font-size: 40px;
+	color: #00529b;
+	font-weight: bold;
+}
+
+#leftText	{
+	font-size: 34px;
+	color: #00529b;
+}
+
+#col2	{
+	position: relative;
+	left: 0px;
+	top: 370px;
+	width: 470px;
+	float: left;
+	text-align: right;
+}
+
+#rightText	{
+	font-size: 31px;
+	color: #00529b;
+	line-height: 34px;
+}

@@ -1,0 +1,1 @@
+<br><br><div align="center" style="font-family:arial, helvetica, sans-serif; font-size:11px; color:#fff">Marketing Manager version 1.2</div>

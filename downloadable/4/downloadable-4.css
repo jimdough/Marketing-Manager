@@ -1,0 +1,60 @@
+body	{
+	margin: 0;
+	padding: 0;
+	font: Arial Bold, sans-serif;
+}
+
+#shell {
+	font-family: Helvetica, sans-serif;
+	background-repeat: no-repeat;
+	background-image: url(shell.jpg);
+	width: 2550px;
+	height: 3300px;
+	margin: auto;
+	position: relative;
+}	
+
+#text	{
+	width: 2430px;
+	height: 260px;
+	position: relative;
+	top: 2750px;
+	left: 120px;
+	font-size: 42px;
+	color: #000;
+	line-height: 55px;
+	text-align: left;
+}
+
+.label	{
+	color: #000;
+}
+
+.col1	{
+	float: left;
+	width: 800px;
+	padding-right: 10px;
+}
+
+.col2	{
+	font-weight: bold;
+	float: left;
+	width: 800px;
+}
+
+.col3	{
+	font-weight: bold;
+	float: left;
+	width: 700px;
+}
+
+.phone {
+    position: relative;
+    font-family: Arial, sans-serif;
+	top: 2550px;
+	font-weight: bold;
+	font-size: 172px;
+	width: 1200px;
+	height: 200px;
+	left: 1250px;
+}

@@ -1,0 +1,84 @@
+/* FLYER 1 */
+body	{
+	margin: 0;
+	padding: 0;
+}
+
+#shell {
+	font-family: Arial, sans-serif;
+	background-repeat: no-repeat;
+	background-image: url(shell.jpg);
+	width: 2900px;
+	height: 3752px;*/
+	margin: auto;
+	position: relative;
+}	
+
+#eventHeadline	{
+	font-size: 110px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	color: #e13227;
+	width: 2100px;
+	height: 150px;
+	text-align: left;
+	padding-top: 260px;
+	padding-left: 300px;
+	overflow: hidden;
+}
+
+#eventTime	{
+	color: #000;
+	font-weight: bold;
+	font-size: 90px;
+	overflow: hidden;
+	text-align: left;
+	width: 2500px;
+	height: 250px;
+	clear: both;
+	text-transform: uppercase;
+	padding-left: 310px;
+}
+
+#eventLocation 	{
+	color: #000;
+	font-size: 90px;
+	text-align: left;
+	width: 1500px;
+	height: 400px;
+	padding-left: 310px;
+	padding-top: 30px;
+	overflow: hidden;
+	line-height: 95px;
+}
+
+#eventDescription	{
+	clear: both;
+	width: 1100px;
+	height: 1000px;
+	color: #000;
+	font-size: 50px;
+	line-height: 54px;
+	text-align: left;
+	overflow: hidden;
+	padding-left: 310px;
+	padding-top: 0px;
+	overflow: hidden;
+
+}
+
+#eventDescription ul	{
+	color: #000;
+	list-style: none;
+}
+
+#eventPhone	{
+	font-size: 180px;
+	color: #000;
+	text-align: left;
+	font-weight: bold;
+	clear: both;
+	padding-top: 630px;
+	padding-left: 310px;
+}
+

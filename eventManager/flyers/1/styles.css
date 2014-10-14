@@ -1,0 +1,162 @@
+/* FLYER 1 */
+body	{
+	margin: 0;
+	padding: 0;
+}
+
+#shell {
+	font-family: Arial, sans-serif;
+	background-repeat: no-repeat;
+	background-image: url(shell.jpg);
+	width: 1500px;
+	height: 1159px;
+	margin: auto;
+	position: relative;
+}	
+
+h2	{
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	margin-top: 30px;
+}
+
+.help	{
+	padding: 15px;
+	margin: 20px;
+}
+
+#eventHeadline	{
+	font-size: 100px;
+	color: white;
+	position: relative;
+	top: 380px;
+	width: 1500px;
+	text-align: center;
+	text-shadow: 5px 5px 10px #000;
+}
+
+.column	{
+	position: relative;
+	top: 390px;
+	left: 10px;
+	width: 495px;
+	height: 600px;
+	float: left;
+	overflow: hidden;
+}
+
+
+#marketing	{
+	height: 300px;
+	color: #fff;
+	font-size: 30px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+#marketing p	{
+	font-size: 20px;
+}
+
+#marketing h2	{
+	color: #fff200;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	line-height: 0;
+	font-size: 36px;
+}
+
+#marketing h3	{
+	color: #fff200;
+	padding: 0;
+	margin: 0;
+	line-height: 5px;
+	font-size: 24px;
+	color: white;
+}
+
+#marketing .disclaimer {
+	font-size: 12px;
+	color: #fff200;
+}
+
+#eventTime	{
+	height: 250px;
+	color: #fff;
+	font-size: 24px;
+	padding-left: 10px;
+	line-height: 24px;
+	overflow: hidden;
+}
+
+#eventTime h2	{
+	color: #fff200;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	line-height: 0;
+	font-size: 36px;
+}
+
+#eventTime li	{
+	height: 7px;
+}
+
+#eventPhone	{
+	font-size: 70px;
+	padding-top: 300px;
+	color: #fff200;
+	text-align: center;
+	font-weight: bold;
+}
+
+#eventPhone h2	{
+	color: #ffffff;
+	font-size: 60px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-style: italic;
+}
+
+#eventLocation 	{
+	height: 130px;
+	color: #fff;
+	font-size: 24px;
+	padding-left: 10px;
+	line-height: 24px;
+}
+
+#eventLocation h2	{
+	color: #fff200;
+	padding-bottom: 25px;
+	margin-bottom: 0;
+	line-height: 0;
+	font-size: 36px;
+}
+
+#eventDescription	{
+	height: 600px;
+	color: #fff;
+	font-size: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+	overflow: hidden;
+}
+
+#eventDescription h2	{
+	color: #fff200;
+	font-size: 36px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	line-height: 0;
+	text-align: left;
+}
+
+#eventDescription ul	{
+	color: #fff200;
+	text-align: left;
+	padding-left: 50px;
+	font-size: 22px
+}

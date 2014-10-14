@@ -1,0 +1,81 @@
+body	{
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-family: 'Lora', serif;
+}
+
+#shell {
+	background-repeat: no-repeat;
+	background-image: url(shell5.jpg);
+	height: 1200px;
+	width: 750px;
+	margin: auto;
+	position: relative;
+}	
+
+#center	{
+	width: 750px;
+	margin: auto;
+	text-align: center;
+	font-size: 40px;
+	line-height: 45px;
+	color: #fff;
+	padding-top: 80px;
+}
+
+#userName	{
+	font-size: 55px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 55px;
+	font-family: 'Federo', sans-serif;
+	padding-bottom: 5px;
+}
+
+#title	{
+		font-family: 'Federo', sans-serif;
+		line-height: 45px;
+		display: inline-block;
+		clear: both;
+}
+
+#creds	{
+	font-size: 36px;
+	padding-bottom: 3px;
+	height: 50px;
+}
+
+#credsBlank	{
+	font-size: 36px;
+	padding-bottom: 3px;
+	height: 20px;
+}
+
+#contact	{
+	width: 750px;
+	text-align: center;
+	font-size: 30px;
+	color: #4c8ac5;
+	line-height: 45px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-top: 40px;
+}
+
+#email	{
+	font-family: 'Federo', sans-serif;
+	font-size: 48px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+#add	{
+	width: 750px;
+	text-align: center;
+	font-size: 32px;
+	color: #fff;
+	clear: both;
+	padding-top: 630px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
